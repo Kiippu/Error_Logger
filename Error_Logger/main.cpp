@@ -4,9 +4,17 @@
 
 int main() {
 
-	logError("");
+	logError("log error");
 
-	logSystemError("");
+	logSystemError("system error");
+
+	logAnimationError("Animation error");
+
+	logStageError("Stage error");
+
+	logStateError("state error");
+
+	logComponentError("component error");
 
 	return 0;
 }
